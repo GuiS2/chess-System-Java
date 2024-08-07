@@ -1,11 +1,12 @@
 package Application;
 
-import Boardgame.Position;
+import Boardgame.Board;
+
 
 public class Programm {
     public static void main(String[] args) {
 
-        Position pos = new Position(3, 5);
-        System.out.println(pos.tostring()); //Alterar "to string " depois e adicionar override
+        Board board = new Board(8,8);
+
     }
 }
