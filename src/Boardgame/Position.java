@@ -25,7 +25,7 @@ public class Position {
         this.collumn = collumn;
     }
 
-    // @overhide
+    //@override
     public String tostring(){
         return row + ", " + collumn;
     }
