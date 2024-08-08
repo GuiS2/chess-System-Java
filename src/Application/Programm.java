@@ -9,6 +9,6 @@ public class Programm {
 
         ChessMatch chessMatch = new ChessMatch();
         UI.printBoard(chessMatch.getPieces());
-        // TESTE TESTE 
+        // TESTE TESTE 2222222
     }
 }
